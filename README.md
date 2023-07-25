@@ -14,6 +14,6 @@ So to generate these features we use a certain set of steps and are combined und
 Audio files are of a certain length(duration) in seconds or as long as in minutes. And the pitch or frequency is continuously changing so to understand this we first divide the audio file into small-small frames which are near about 20 to 40 ms long.
 After dividing into frames we try to identify and extract different frequencies from each frame. When we divide in such a small frame so assume that one frame divides down in a single frequency.
 separate linguistic frequencies from the noise
-To discard any type of noise, take discrete cosine transform (DCT) of the frequencies. students who are from engineering backgrounds might know cosine transform and have studied this in discrete mathematics subjects.
+To discard any type of noise, take discrete cosine transform (DCT) of the frequencies.
 
 
